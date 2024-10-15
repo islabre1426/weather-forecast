@@ -40,7 +40,7 @@
     };
     
     function weatherCodeToImgSrc(code, hour) {
-        const imgsPath = "/assets/weather-imgs/";
+        const imgsPath = "assets/weather-imgs/";
 
         const isDaytime = (hour >= 6 && hour < 18) ? true : false;
         
